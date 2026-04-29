@@ -28,8 +28,9 @@ public class DBManager {
 
     // Datos de conexión a la base de datos
     private static final String URL = "jdbc:mysql://localhost:3306/gestor_finanzas";
-    private static final String USER = "root";
-    private static final String PASSWORD = "root123";
+ // Sustituir por credenciales locales antes de ejecutar
+    private static final String USER = "TU_USUARIO";
+    private static final String PASSWORD = "TU_PASSWORD";
 
     /**
      * Establece conexión con la base de datos
